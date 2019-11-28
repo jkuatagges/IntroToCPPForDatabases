@@ -36,8 +36,7 @@ class Student   //Start of OOP class instantiation
 };// End of class instance.
 
 //Member function definition, outside of the class at end of class
-void Student::getDetails(void)
-{
+void Student::getDetails(void){
     cout << "Name: ";
     cin >> name;
     cout << "Student's Reg No: ";
