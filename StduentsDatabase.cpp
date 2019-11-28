@@ -11,29 +11,27 @@ using namespace std;
 
 #define MAX 500  //Maximum number of/Limit of students
 
-class Student   //Start of OOP class instantiation
-{
+/**OOP class instantiation**/
+class Student{
     private:   //Access specifier.How the variables will be accessed by outside/global operators.
-
         string  name;
         string  Reg_No;
         float   total_Mrks;
         float   grading_points;
 
-    public: //The details remain publicly accessible to all from outside access
-
-        //member function to get student's details
+    public: 
+    /*The details remain publicly accessible to all from outside access
+      member function to get student's details*/
         void getDetails();
 
-        void PrintTitle()
-       {
+        void PrintTitle(){
            cout<<"\t\t\t GEGIS STUDENT DATABASE DEMO IN OOP"<<endl;
            cout<<"\t\t\t ==================================\n"<<endl;
        }
 
         //Member function to out put student's details
         void displayDetails(void);
-};// End of class instance.
+};
 
 //Member function definition, outside of the class at end of class
 void Student::getDetails(void){
@@ -43,7 +41,6 @@ void Student::getDetails(void){
     cin >> Reg_No;
     cout << "Total marks out of 100: ";
     cin >> total_Mrks;
-
     grading_points = (total_Mrks/100)*5;
 }
 //member function definition, outside of the class
@@ -59,20 +56,17 @@ int main(){
     PT.PrintTitle();
     cout << "Enter total number of students: " ;
     cin >> n;
-    for(iter = 0; iter < n; iter++) //We are now looping to keep on getting details from the 1st to the nth student.
-        {
+    /*Loop to keep on getting details from the 1st to the nth student.*/
+    for(iter = 0; iter < n; iter++){
             cout <<endl<<"Enter details of student " << iter+1 <<endl;
             std[iter].getDetails();
         }
     cout << endl;
-    for(iter=0;iter< n; iter++) //We are finally looping to keep on displaying the initially entered details from the 1st to the nth student.
-
-        {
+/*For loop to keep on displaying the initially entered details from the 1st to the nth student.*/
+    for(iter=0;iter< n; iter++){
             cout <<endl<<"Details of student " << (iter+1) << ":\n";
             std[iter].displayDetails(); //The displayDetails function displays the details.
         }
     return 0;
-
 }
-
 //End of code
