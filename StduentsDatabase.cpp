@@ -47,41 +47,31 @@ void Student::getDetails(void)
 
     grading_points = (total_Mrks/100)*5;
 }
-
 //member function definition, outside of the class
 
-void Student::displayDetails(void)
-{
+void Student::displayDetails(void){
     cout << "Student Details: "<<endl;
     cout << "Name:"<< name << " | Reg Number:" << Reg_No << " | Total: " << total_Mrks << " | Percentage:" << grading_points<<"| Grade: "<<endl;
 }
-
-int main()
-{
+int main(){
     Student std[MAX];       //Array of objects creation
     int n, iter;            //n is the number of students, iter is any iterable from index 0 to index (n-1)
     Student PT;             //PT in this case is a function that will invoke the printTitle() as shown exactly below.
     PT.PrintTitle();
-
     cout << "Enter total number of students: " ;
     cin >> n;
-
     for(iter = 0; iter < n; iter++) //We are now looping to keep on getting details from the 1st to the nth student.
         {
             cout <<endl<<"Enter details of student " << iter+1 <<endl;
             std[iter].getDetails();
         }
-
     cout << endl;
-
     for(iter=0;iter< n; iter++) //We are finally looping to keep on displaying the initially entered details from the 1st to the nth student.
 
         {
             cout <<endl<<"Details of student " << (iter+1) << ":\n";
             std[iter].displayDetails(); //The displayDetails function displays the details.
         }
-
-
     return 0;
 
 }
