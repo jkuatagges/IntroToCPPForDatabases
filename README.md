@@ -1,4 +1,4 @@
-# Introdoction To CPP For Sinple Databases
+# Introdoction To CPP For Simple Databases
 
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jkuatagges/IntroToCPPForDatabases?color=green-yellow&logo=github&logoColor=blue) 
