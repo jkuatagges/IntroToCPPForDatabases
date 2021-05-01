@@ -8,7 +8,7 @@
 ![Forks](https://img.shields.io/github/forks/jkuatagges/IntroToCPPForDatabases?style=social) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
-<a href="https://twitter.com/DataScience_Ea"><img src="https://img.shields.io/discord/733027681184251937.svg?style=flat&label=Join%20DSEA%20Community&color=7289DA" alt="Join DSEA"/></a>
+<a href="https://twitter.com/jkuatagges"><img src="https://img.shields.io/discord/733027681184251937.svg?style=flat&label=Join%20jkuatAGGES%20Community&color=7289DA" alt="Join AGGES"/></a>
 
 #### Find Your Developers
 [![image](https://img.shields.io/twitter/follow/okomojacob?style=social)](https://twitter.com/okomojacob)
