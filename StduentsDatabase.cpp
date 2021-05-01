@@ -28,7 +28,6 @@ class Student{
            cout<<"\t\t\t GEGIS STUDENT DATABASE DEMO IN OOP"<<endl;
            cout<<"\t\t\t ==================================\n"<<endl;
        }
-
         //Member function to out put student's details
         void displayDetails(void);
 };
